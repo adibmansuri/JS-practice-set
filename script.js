@@ -1,11 +1,15 @@
-let js = "amazing";
+// let js = "amazing";
 
-console.log(5 + 6 + 6);
+// console.log(5 + 6 + 6);
 
-console.log("adib");
+// console.log("adib");
 
-let country = "India";
-let population = "3 billion";
+// let country = "India";
+// let population = "3 billion";
 
-console.log(country);
-console.log(population);
+// console.log(country);
+// console.log(population);
+
+let JSisfun = true;
+console.log(JSisfun);
+console.log(typeof true);
