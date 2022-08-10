@@ -33,9 +33,43 @@
 // }
 // console.log(challange);
 
-// conversion and coericion
-const inputyear = 1995;
+// // conversion and coericion
+// const inputyear = 1995;
 
-console.log(inputyear + 18);
+// console.log(inputyear + 18);
 
-console.log("i am  " + 25 + " years old");
+// console.log("i am  " + 25 + " years old");
+
+// challange 3
+// let winner;
+// dolphins = (96 + 91 + 110) / 3;
+// console.log(dolphins);
+// koalas = (96 + 91 + 110) / 3;
+// console.log(koalas);
+
+// if (dolphins > koalas) {
+//   winner = `Dolphins is winner`;
+// } else if (dolphins < koalas) {
+//   winner = `Koalas is winner`;
+// } else {
+//   winner = `Draw`;
+// }
+// console.log(winner);
+
+// challange 3B
+let winner;
+dolphins = (96 + 19 + 110) / 3;
+console.log(dolphins);
+koalas = (96 + 19 + 110) / 3;
+console.log(koalas);
+
+if (dolphins > koalas && dolphins >= 100) {
+  winner = `Dolphins is winner`;
+} else if (dolphins < koalas && koalas >= 100) {
+  winner = `Koalas is winner`;
+} else if (dolphins === koalas && dolphins && koalas >= 100) {
+  winner = `Draw both wins the trophy`;
+} else {
+  winner = `No one wins the trophy`;
+}
+console.log(winner);
