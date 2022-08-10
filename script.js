@@ -14,21 +14,28 @@
 // console.log(JSisfun);
 // console.log(typeof true);
 
-const mass = 92;
-const hight = 1.69;
-const johnBmi = mass / hight ** 2;
+// const mass = 92;
+// const hight = 1.69;
+// const johnBmi = mass / hight ** 2;
 
-const markmass = 52;
-const markhight = 1.95;
-const markBmi = markmass / markhight ** 2;
-const check = johnBmi > markBmi;
-console.log(johnBmi, markBmi, check);
+// const markmass = 52;
+// const markhight = 1.95;
+// const markBmi = markmass / markhight ** 2;
+// const check = johnBmi > markBmi;
+// console.log(johnBmi, markBmi, check);
 
-// challange 1
-let challange;
-if (johnBmi > markBmi) {
-  challange = `Mark's BMI (${markBmi})is higher then John's BMI (${johnBmi}) !`;
-} else {
-  challange = `johans's BMI (${johnBmi})is higher then mark's BMI(${markBmi}) !`;
-}
-console.log(challange);
+// // challange 1
+// let challange;
+// if (johnBmi > markBmi) {
+//   challange = `Mark's BMI (${markBmi})is higher then John's BMI (${johnBmi}) !`;
+// } else {
+//   challange = `johans's BMI (${johnBmi})is higher then mark's BMI(${markBmi}) !`;
+// }
+// console.log(challange);
+
+// conversion and coericion
+const inputyear = 1995;
+
+console.log(inputyear + 18);
+
+console.log("i am  " + 25 + " years old");
