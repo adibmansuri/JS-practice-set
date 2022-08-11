@@ -56,20 +56,46 @@
 // }
 // console.log(winner);
 
-// challange 3B
-let winner;
-dolphins = (96 + 19 + 110) / 3;
-console.log(dolphins);
-koalas = (96 + 19 + 110) / 3;
-console.log(koalas);
+// // challange 3B
+// let winner;
+// dolphins = (96 + 19 + 110) / 3;
+// console.log(dolphins);
+// koalas = (96 + 19 + 110) / 3;
+// console.log(koalas);
 
-if (dolphins > koalas && dolphins >= 100) {
-  winner = `Dolphins is winner`;
-} else if (dolphins < koalas && koalas >= 100) {
-  winner = `Koalas is winner`;
-} else if (dolphins === koalas && dolphins && koalas >= 100) {
-  winner = `Draw both wins the trophy`;
-} else {
-  winner = `No one wins the trophy`;
-}
-console.log(winner);
+// if (dolphins > koalas && dolphins >= 100) {
+//   winner = `Dolphins is winner`;
+// } else if (dolphins < koalas && koalas >= 100) {
+//   winner = `Koalas is winner`;
+// } else if (dolphins === koalas && dolphins && koalas >= 100) {
+//   winner = `Draw both wins the trophy`;
+// } else {
+//   winner = `No one wins the trophy`;
+// }
+// console.log(winner);
+
+// coding challenge 4
+const bill = 555;
+
+const tip = bill <= 300 && bill >= 50 ? bill * 0.15 : bill * 0.2;
+console.log(
+  `The bill was ${bill}, and tip was ${tip}, and the total value is ${
+    bill + tip
+  }.`
+);
+
+// const tip = 50 && <= 300
+//   ? console.log(
+//       `The bill was ${tip}, and tip was ${tip * 0.15}, and the total value is ${
+//         tip * 0.15 + tip
+//       }.`
+//     )tip >= 300
+//     ? console.log(
+//         `The bill was ${tip}, and tip was ${tip * 0.15}, and the total value is ${
+//           tip * 0.15 + tip
+//         }.`
+//       )
+//   : console.log(
+//       `The was ${bill}, anf ti was ${tip}, and the total value is ${(bill =
+//         tip)}.`
+//     );
